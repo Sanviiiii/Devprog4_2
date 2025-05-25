@@ -8,3 +8,10 @@
       image: nginx:latest
       ports:
         - containerPort: 80
+
+#kubectl apply -f pod.yaml
+#kubectl get pods
+#kubectl describe pod my-nginx
+#kubectl get pods -o wide
+#minikube ssh -it will login into the minikube cluster  
+#curl  <nginx ip-address> 
